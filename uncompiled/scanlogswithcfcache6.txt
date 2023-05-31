@@ -1,0 +1,775 @@
+13:27:21.700 INFO: Scanner configuration file: /Users/mickael/Downloads/sonar-scanner-4.7.0.2747/conf/sonar-scanner.properties
+13:27:21.703 INFO: Project root configuration file: NONE
+13:27:21.718 INFO: SonarScanner 4.7.0.2747
+13:27:21.719 INFO: Java 11.0.13 Azul Systems, Inc. (64-bit)
+13:27:21.719 INFO: Mac OS X 13.2.1 aarch64
+13:27:21.824 DEBUG: keyStore is : 
+13:27:21.824 DEBUG: keyStore type is : pkcs12
+13:27:21.824 DEBUG: keyStore provider is : 
+13:27:21.824 DEBUG: init keystore
+13:27:21.825 DEBUG: init keymanager of type SunX509
+13:27:21.891 DEBUG: Create: /Users/mickael/.sonar/cache
+13:27:21.891 INFO: User cache: /Users/mickael/.sonar/cache
+13:27:21.891 DEBUG: Create: /Users/mickael/.sonar/cache/_tmp
+13:27:21.892 DEBUG: Extract sonar-scanner-api-batch in temp...
+13:27:21.895 DEBUG: Get bootstrap index...
+13:27:21.895 DEBUG: Download: https://pr-4981-core.sc-dev.io/batch/index
+13:27:22.325 DEBUG: Get bootstrap completed
+13:27:22.331 DEBUG: Download https://pr-4981-core.sc-dev.io/batch/file?name=scanner-sonarcloud-8.0.0.38777-all.jar to /Users/mickael/.sonar/cache/_tmp/fileCache8984528691040760969.tmp
+13:27:27.765 DEBUG: Create isolated classloader...
+13:27:27.769 DEBUG: Start temp cleaning...
+13:27:27.772 DEBUG: Temp cleaning done
+13:27:27.773 INFO: Scanner configuration file: /Users/mickael/Downloads/sonar-scanner-4.7.0.2747/conf/sonar-scanner.properties
+13:27:27.773 INFO: Project root configuration file: NONE
+13:27:27.773 DEBUG: Execution getVersion
+13:27:27.790 INFO: Analyzing on SonarQube server 8.0.0.38777
+13:27:27.790 INFO: Default locale: "en_CH", source code encoding: "UTF-8" (analysis is platform dependent)
+13:27:27.790 DEBUG: Work directory: /Users/mickael/Documents/Code/Examples/python/.scannerwork
+13:27:27.791 DEBUG: Execution execute
+13:27:27.898 DEBUG: SonarCloud 9.14.0.375
+13:27:27.993 INFO: Load global settings
+13:27:28.339 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/settings/values.protobuf | time=344ms
+13:27:28.347 INFO: Load global settings (done) | time=354ms
+13:27:28.349 INFO: Server id: CCA0FF65-AYa3KCjpT_ovQDUlRMlU
+13:27:28.361 INFO: User cache: /Users/mickael/.sonar/cache
+13:27:28.364 INFO: Load/download plugins
+13:27:28.364 INFO: Load plugins index
+13:27:28.667 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/plugins/installed | time=303ms
+13:27:28.700 INFO: Load plugins index (done) | time=336ms
+13:27:28.731 DEBUG: Download plugin 'csharp' to '/Users/mickael/.sonar/_tmp/fileCache12772000290842180901.tmp'
+13:27:29.100 DEBUG: GET 200 https://scanner-pr-4981.sc-dev.io/plugins/csharp/versions/4a1da91f092ef6e2d66f2867341bca22.jar | time=369ms
+13:27:29.768 DEBUG: Download plugin 'cpp' to '/Users/mickael/.sonar/_tmp/fileCache3584787759850156229.tmp'
+13:27:29.932 DEBUG: GET 200 https://scanner-pr-4981.sc-dev.io/plugins/cpp/versions/adeab052dc04a9c813239d6afe71bbac.jar | time=164ms
+13:27:34.490 DEBUG: Download plugin 'dbd' to '/Users/mickael/.sonar/_tmp/fileCache14829611946342400017.tmp'
+13:27:34.624 DEBUG: GET 200 https://scanner-pr-4981.sc-dev.io/plugins/dbd/versions/f8b860ac9b3e077405828282739f7c99.jar | time=134ms
+13:27:34.771 DEBUG: Download plugin 'dbdjavafrontend' to '/Users/mickael/.sonar/_tmp/fileCache3024289296717488420.tmp'
+13:27:34.983 DEBUG: GET 200 https://scanner-pr-4981.sc-dev.io/plugins/dbdjavafrontend/versions/ecbe8e11bc6bae9c9d5077019d02670b.jar | time=212ms
+13:27:35.170 DEBUG: Download plugin 'dbdpythonfrontend' to '/Users/mickael/.sonar/_tmp/fileCache14313388699188712061.tmp'
+13:27:35.296 DEBUG: GET 200 https://scanner-pr-4981.sc-dev.io/plugins/dbdpythonfrontend/versions/5f42a10031ebf26094ae6522fda4b581.jar | time=125ms
+13:27:35.497 DEBUG: Download plugin 'iac' to '/Users/mickael/.sonar/_tmp/fileCache11536119453384371446.tmp'
+13:27:35.629 DEBUG: GET 200 https://scanner-pr-4981.sc-dev.io/plugins/iac/versions/124855fc224ab894e7b66a0ccfe1a0ca.jar | time=132ms
+13:27:35.763 DEBUG: Download plugin 'java' to '/Users/mickael/.sonar/_tmp/fileCache13799913540370944948.tmp'
+13:27:35.936 DEBUG: GET 200 https://scanner-pr-4981.sc-dev.io/plugins/java/versions/8dc8c856e43854ce6e02dcd56b25c1d8.jar | time=173ms
+13:27:37.342 DEBUG: Download plugin 'javascript' to '/Users/mickael/.sonar/_tmp/fileCache5628859449178516486.tmp'
+13:27:37.555 DEBUG: GET 200 https://scanner-pr-4981.sc-dev.io/plugins/javascript/versions/bf388bba99751e742fd92e49b4b72ad3.jar | time=213ms
+13:27:39.728 DEBUG: Download plugin 'kotlin' to '/Users/mickael/.sonar/_tmp/fileCache14450673215575269201.tmp'
+13:27:40.063 DEBUG: GET 200 https://scanner-pr-4981.sc-dev.io/plugins/kotlin/versions/d45266bfab8e19af9b01f27f34b0fd80.jar | time=335ms
+13:27:43.600 DEBUG: Download plugin 'license' to '/Users/mickael/.sonar/_tmp/fileCache18098949102770982186.tmp'
+13:27:43.767 DEBUG: GET 200 https://scanner-pr-4981.sc-dev.io/plugins/license/versions/9c5c920bdddce3673eb1916faed1f390.jar | time=167ms
+13:27:43.787 DEBUG: Download plugin 'python' to '/Users/mickael/.sonar/_tmp/fileCache386813530179461096.tmp'
+13:27:43.975 DEBUG: GET 200 https://scanner-pr-4981.sc-dev.io/plugins/python/versions/3e40a369034391da1f5790e9feeb1b8a.jar | time=188ms
+13:27:44.521 DEBUG: Download plugin 'tsql' to '/Users/mickael/.sonar/_tmp/fileCache4864618579533066515.tmp'
+13:27:44.664 DEBUG: GET 200 https://scanner-pr-4981.sc-dev.io/plugins/tsql/versions/bbcd0b2c4e655ab64ddc9d26d8c961e8.jar | time=143ms
+13:27:44.815 DEBUG: Download plugin 'text' to '/Users/mickael/.sonar/_tmp/fileCache15824036375892171199.tmp'
+13:27:44.965 DEBUG: GET 200 https://scanner-pr-4981.sc-dev.io/plugins/text/versions/538be37ff128ced033adc75153211d3e.jar | time=150ms
+13:27:44.988 DEBUG: Download plugin 'vbnet' to '/Users/mickael/.sonar/_tmp/fileCache4845982699799300743.tmp'
+13:27:45.204 DEBUG: GET 200 https://scanner-pr-4981.sc-dev.io/plugins/vbnet/versions/bd77cb3ac7ebb46162d1f0a354bdefcc.jar | time=216ms
+13:27:45.499 DEBUG: Download plugin 'security' to '/Users/mickael/.sonar/_tmp/fileCache15905286153596444086.tmp'
+13:27:45.713 DEBUG: GET 200 https://scanner-pr-4981.sc-dev.io/plugins/security/versions/dd1921871a7ca634c114ed082751a31f.jar | time=214ms
+13:27:46.461 DEBUG: Download plugin 'securitycsharpfrontend' to '/Users/mickael/.sonar/_tmp/fileCache4631751885496207515.tmp'
+13:27:46.612 DEBUG: GET 200 https://scanner-pr-4981.sc-dev.io/plugins/securitycsharpfrontend/versions/038c5769eabf63f3b1546f4ffabcfcbe.jar | time=151ms
+13:27:46.719 DEBUG: Download plugin 'securityjsfrontend' to '/Users/mickael/.sonar/_tmp/fileCache14357203870066932351.tmp'
+13:27:46.870 DEBUG: GET 200 https://scanner-pr-4981.sc-dev.io/plugins/securityjsfrontend/versions/fef558351db30c88e54844ea40bb0406.jar | time=150ms
+13:27:46.923 DEBUG: Download plugin 'securityjavafrontend' to '/Users/mickael/.sonar/_tmp/fileCache14465081830660191157.tmp'
+13:27:47.121 DEBUG: GET 200 https://scanner-pr-4981.sc-dev.io/plugins/securityjavafrontend/versions/50af766f68c7aae4ad838b283da921e2.jar | time=197ms
+13:27:47.713 DEBUG: Download plugin 'securityphpfrontend' to '/Users/mickael/.sonar/_tmp/fileCache5278342890093798754.tmp'
+13:27:47.836 DEBUG: GET 200 https://scanner-pr-4981.sc-dev.io/plugins/securityphpfrontend/versions/eb0666956fb6dc7bf55d08ad6bf19cc8.jar | time=123ms
+13:27:48.091 DEBUG: Download plugin 'securitypythonfrontend' to '/Users/mickael/.sonar/_tmp/fileCache5611924832689562067.tmp'
+13:27:48.268 DEBUG: GET 200 https://scanner-pr-4981.sc-dev.io/plugins/securitypythonfrontend/versions/f9ced713757051b045282f64569ec563.jar | time=177ms
+13:27:48.534 INFO: Load/download plugins (done) | time=20170ms
+13:27:48.794 DEBUG: Plugins:
+13:27:48.794 DEBUG:   * IaC Code Quality and Security 1.12.0.3222 (iac)
+13:27:48.794 DEBUG:   * PL/SQL Code Quality and Security 3.8.0.4948 (plsql)
+13:27:48.794 DEBUG:   * Scala Code Quality and Security 1.11.0.3905 (sonarscala)
+13:27:48.795 DEBUG:   * C# Code Quality and Security 8.53.0.62665 (csharp)
+13:27:48.795 DEBUG:   * Vulnerability Analysis 10.0.0-M1.19607 (security)
+13:27:48.795 DEBUG:   * Java Code Quality and Security 7.17.0.31219 (java)
+13:27:48.795 DEBUG:   * HTML Code Quality and Security 3.7.1.3306 (web)
+13:27:48.795 DEBUG:   * Flex Code Quality and Security 2.8.0.3166 (flex)
+13:27:48.795 DEBUG:   * XML Code Quality and Security 2.7.0.3820 (xml)
+13:27:48.795 DEBUG:   * Text Code Quality and Security 2.0.2.1090 (text)
+13:27:48.795 DEBUG:   * VB.NET Code Quality and Security 8.53.0.62665 (vbnet)
+13:27:48.795 DEBUG:   * Swift Code Quality and Security 4.8.0.5759 (swift)
+13:27:48.795 DEBUG:   * CFamily Code Quality and Security 6.42.0.61084 (cpp)
+13:27:48.795 DEBUG:   * Python Code Quality and Security 4.0.0.11155 (python)
+13:27:48.795 DEBUG:   * Dataflow Bug Detection Rules for Python 1.11.0.3183 (dbdpythonfrontend)
+13:27:48.795 DEBUG:   * Dataflow Bug Detection 1.11.0.3183 (dbd)
+13:27:48.795 DEBUG:   * Go Code Quality and Security 1.11.0.3905 (go)
+13:27:48.795 DEBUG:   * JaCoCo 1.3.0.1538 (jacoco)
+13:27:48.795 DEBUG:   * Kotlin Code Quality and Security 2.13.0.2116 (kotlin)
+13:27:48.795 DEBUG:   * Dataflow Bug Detection Rules for Java 1.11.0.3183 (dbdjavafrontend)
+13:27:48.795 DEBUG:   * T-SQL Code Quality and Security 1.8.0.5601 (tsql)
+13:27:48.795 DEBUG:   * Apex Code Quality and Security 1.11.0.3905 (sonarapex)
+13:27:48.795 DEBUG:   * JavaScript/TypeScript/CSS Code Quality and Security 10.0.1.20755 (javascript)
+13:27:48.795 DEBUG:   * Ruby Code Quality and Security 1.11.0.3905 (ruby)
+13:27:48.795 DEBUG:   * Vulnerability Rules for C# 10.0.0-M1.19607 (securitycsharpfrontend)
+13:27:48.795 DEBUG:   * Vulnerability Rules for Java 10.0.0-M1.19607 (securityjavafrontend)
+13:27:48.795 DEBUG:   * License for SonarLint 8.0.0.38777 (license)
+13:27:48.795 DEBUG:   * Vulnerability Rules for JS 10.0.0-M1.19607 (securityjsfrontend)
+13:27:48.795 DEBUG:   * COBOL Code Quality 5.2.0.5949 (cobol)
+13:27:48.795 DEBUG:   * Vulnerability Rules for Python 10.0.0-M1.19607 (securitypythonfrontend)
+13:27:48.795 DEBUG:   * PHP Code Quality and Security 3.27.1.9352 (php)
+13:27:48.795 DEBUG:   * ABAP Code Quality and Security 3.11.0.4030 (abap)
+13:27:48.795 DEBUG:   * Configuration detection fot Code Quality and Security 1.2.0.267 (config)
+13:27:48.795 DEBUG:   * Vulnerability Rules for PHP 10.0.0-M1.19607 (securityphpfrontend)
+13:27:49.106 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/server/version | time=311ms
+13:27:49.110 DEBUG: Updated analysis started with a difference of 21 milliseconds
+13:27:49.131 DEBUG: Started at Tue Mar 07 13:27:28 CET 2023
+13:27:49.159 INFO: Loaded core extensions: developer-scanner
+13:27:49.171 DEBUG: Installed core extension: com.sonarsource.branch.DeveloperScannerCoreExtension@21422231
+13:27:49.407 DEBUG: Could not detect any CI vendor
+13:27:49.413 INFO: Load project settings for component key: 'mickael_python'
+13:27:49.749 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/settings/values.protobuf?component=mickael_python | time=336ms
+13:27:49.757 INFO: Load project settings for component key: 'mickael_python' (done) | time=344ms
+13:27:49.767 INFO: Process project properties
+13:27:49.773 DEBUG: Process project properties (done) | time=6ms
+13:27:49.773 INFO: Execute project builders
+13:27:49.774 DEBUG: Execute project builder: org.sonar.plugins.csharp.CSharpGlobalProtobufFileProcessor
+13:27:49.774 DEBUG: Execute project builder: org.sonar.plugins.vbnet.VbNetGlobalProtobufFileProcessor
+13:27:49.775 INFO: Execute project builders (done) | time=2ms
+13:27:49.777 INFO: Project key: mickael_python
+13:27:49.777 INFO: Base dir: /Users/mickael/Documents/Code/Examples/python
+13:27:49.777 INFO: Working dir: /Users/mickael/Documents/Code/Examples/python/.scannerwork
+13:27:49.778 DEBUG: Project global encoding: UTF-8, default locale: en_CH
+13:27:49.780 DEBUG: Creating module hierarchy
+13:27:49.780 DEBUG:   Init module 'mickael_python'
+13:27:49.780 DEBUG:     Base dir: /Users/mickael/Documents/Code/Examples/python
+13:27:49.780 DEBUG:     Working dir: /Users/mickael/Documents/Code/Examples/python/.scannerwork
+13:27:49.780 DEBUG:     Module global encoding: UTF-8, default locale: en_CH
+13:27:49.836 INFO: Load project branches
+13:27:50.170 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/project_branches/list?project=mickael_python | time=334ms
+13:27:50.174 INFO: Load project branches (done) | time=338ms
+13:27:50.177 INFO: Check ALM binding of project 'mickael_python'
+13:27:50.500 DEBUG: GET 401 https://pr-4981-core.sc-dev.io/api/alm_integration/is_project_bound?project=mickael_python | time=322ms
+13:27:50.500 WARN: Failed to check if project 'mickael_python' is bound
+13:27:50.500 INFO: Detected project binding: ERROR
+13:27:50.501 INFO: Check ALM binding of project 'mickael_python' (done) | time=324ms
+13:27:50.502 INFO: Load project pull requests
+13:27:50.802 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/project_pull_requests/list?project=mickael_python | time=299ms
+13:27:50.804 INFO: Load project pull requests (done) | time=302ms
+13:27:50.806 INFO: Load branch configuration
+13:27:50.808 INFO: Load branch configuration (done) | time=2ms
+13:27:50.819 DEBUG: Available languages:
+13:27:50.819 DEBUG:   * Terraform => "terraform"
+13:27:50.820 DEBUG:   * CloudFormation => "cloudformation"
+13:27:50.820 DEBUG:   * Kubernetes => "kubernetes"
+13:27:50.820 DEBUG:   * Docker => "docker"
+13:27:50.820 DEBUG:   * PL/SQL => "plsql"
+13:27:50.820 DEBUG:   * Scala => "scala"
+13:27:50.820 DEBUG:   * C# => "cs"
+13:27:50.820 DEBUG:   * Java => "java"
+13:27:50.820 DEBUG:   * HTML => "web"
+13:27:50.820 DEBUG:   * JSP => "jsp"
+13:27:50.820 DEBUG:   * Flex => "flex"
+13:27:50.820 DEBUG:   * XML => "xml"
+13:27:50.820 DEBUG:   * Text => "text"
+13:27:50.820 DEBUG:   * Secrets => "secrets"
+13:27:50.820 DEBUG:   * VB.NET => "vbnet"
+13:27:50.820 DEBUG:   * Swift => "swift"
+13:27:50.820 DEBUG:   * C => "c"
+13:27:50.820 DEBUG:   * C++ => "cpp"
+13:27:50.820 DEBUG:   * Objective-C => "objc"
+13:27:50.820 DEBUG:   * Python => "py"
+13:27:50.820 DEBUG:   * Go => "go"
+13:27:50.820 DEBUG:   * Kotlin => "kotlin"
+13:27:50.820 DEBUG:   * T-SQL => "tsql"
+13:27:50.820 DEBUG:   * Apex => "apex"
+13:27:50.820 DEBUG:   * JavaScript => "js"
+13:27:50.820 DEBUG:   * TypeScript => "ts"
+13:27:50.820 DEBUG:   * CSS => "css"
+13:27:50.821 DEBUG:   * Ruby => "ruby"
+13:27:50.821 DEBUG:   * COBOL => "cobol"
+13:27:50.821 DEBUG:   * PHP => "php"
+13:27:50.821 DEBUG:   * ABAP => "abap"
+13:27:50.821 DEBUG:   * YAML => "yaml"
+13:27:50.821 DEBUG:   * JSON => "json"
+13:27:50.823 INFO: Load quality profiles
+13:27:51.153 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/qualityprofiles/search.protobuf?projectKey=mickael_python&organization=mickael | time=329ms
+13:27:51.166 INFO: Load quality profiles (done) | time=343ms
+13:27:51.168 INFO: Load active rules
+13:27:51.527 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbo_Zx4N0DsZ0Og&ps=500&p=1 | time=358ms
+13:27:51.582 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbq_Zx4N0DsZ0Oh&ps=500&p=1 | time=42ms
+13:27:51.624 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbq_Zx4N0DsZ0Oi&ps=500&p=1 | time=42ms
+13:27:51.665 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbq_Zx4N0DsZ0Oj&ps=500&p=1 | time=41ms
+13:27:51.724 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbq_Zx4N0DsZ0Ok&ps=500&p=1 | time=59ms
+13:27:51.785 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbq_Zx4N0DsZ0Ol&ps=500&p=1 | time=61ms
+13:27:51.829 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbq_Zx4N0DsZ0Om&ps=500&p=1 | time=44ms
+13:27:51.874 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbq_Zx4N0DsZ0Oo&ps=500&p=1 | time=45ms
+13:27:51.918 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbq_Zx4N0DsZ0On&ps=500&p=1 | time=44ms
+13:27:51.972 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbq_Zx4N0DsZ0Op&ps=500&p=1 | time=54ms
+13:27:52.015 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbq_Zx4N0DsZ0Oq&ps=500&p=1 | time=43ms
+13:27:52.059 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbr_Zx4N0DsZ0Os&ps=500&p=1 | time=44ms
+13:27:52.102 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbq_Zx4N0DsZ0Or&ps=500&p=1 | time=43ms
+13:27:52.159 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbr_Zx4N0DsZ0Ot&ps=500&p=1 | time=56ms
+13:27:52.207 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbr_Zx4N0DsZ0Ou&ps=500&p=1 | time=47ms
+13:27:52.258 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbr_Zx4N0DsZ0Ov&ps=500&p=1 | time=50ms
+13:27:52.313 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbr_Zx4N0DsZ0Ow&ps=500&p=1 | time=52ms
+13:27:52.366 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbr_Zx4N0DsZ0Oy&ps=500&p=1 | time=51ms
+13:27:52.413 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbr_Zx4N0DsZ0Ox&ps=500&p=1 | time=39ms
+13:27:52.469 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbr_Zx4N0DsZ0Oz&ps=500&p=1 | time=55ms
+13:27:52.520 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbr_Zx4N0DsZ0O0&ps=500&p=1 | time=47ms
+13:27:52.572 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbr_Zx4N0DsZ0O1&ps=500&p=1 | time=51ms
+13:27:52.645 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbr_Zx4N0DsZ0O2&ps=500&p=1 | time=73ms
+13:27:52.694 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbs_Zx4N0DsZ0O3&ps=500&p=1 | time=48ms
+13:27:52.736 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbs_Zx4N0DsZ0O4&ps=500&p=1 | time=42ms
+13:27:52.783 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbs_Zx4N0DsZ0O5&ps=500&p=1 | time=46ms
+13:27:52.831 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbs_Zx4N0DsZ0O6&ps=500&p=1 | time=47ms
+13:27:52.885 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbs_Zx4N0DsZ0O7&ps=500&p=1 | time=52ms
+13:27:52.933 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbs_Zx4N0DsZ0O8&ps=500&p=1 | time=46ms
+13:27:52.983 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbs_Zx4N0DsZ0O9&ps=500&p=1 | time=48ms
+13:27:53.025 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbs_Zx4N0DsZ0O-&ps=500&p=1 | time=41ms
+13:27:53.080 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbs_Zx4N0DsZ0PA&ps=500&p=1 | time=55ms
+13:27:53.147 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYa8CDbs_Zx4N0DsZ0O_&ps=500&p=1 | time=60ms
+13:27:53.149 INFO: Load active rules (done) | time=1981ms
+13:27:53.184 INFO: Organization key: mickael
+13:27:53.192 INFO: Load project repositories
+13:27:53.523 DEBUG: GET 404 https://pr-4981-core.sc-dev.io/batch/project.protobuf?key=mickael_python | time=331ms
+13:27:53.528 DEBUG: Project repository not available - continuing without it
+13:27:53.528 INFO: Load project repositories (done) | time=336ms
+13:27:53.553 DEBUG: Declared extensions of language Terraform were converted to sonar.lang.patterns.terraform : **/*.tf
+13:27:53.553 DEBUG: Declared extensions of language CloudFormation were converted to sonar.lang.patterns.cloudformation : 
+13:27:53.553 DEBUG: Declared extensions of language Kubernetes were converted to sonar.lang.patterns.kubernetes : 
+13:27:53.553 DEBUG: Declared extensions of language Docker were converted to sonar.lang.patterns.docker : 
+13:27:53.553 DEBUG: Declared extensions of language PL/SQL were converted to sonar.lang.patterns.plsql : **/*.sql,**/*.pks,**/*.pkb
+13:27:53.553 DEBUG: Declared extensions of language Scala were converted to sonar.lang.patterns.scala : **/*.scala
+13:27:53.553 DEBUG: Declared extensions of language C# were converted to sonar.lang.patterns.cs : **/*.cs
+13:27:53.553 DEBUG: Declared extensions of language Java were converted to sonar.lang.patterns.java : **/*.java,**/*.jav
+13:27:53.554 DEBUG: Declared extensions of language HTML were converted to sonar.lang.patterns.web : **/*.html,**/*.xhtml,**/*.cshtml,**/*.vbhtml,**/*.aspx,**/*.ascx,**/*.rhtml,**/*.erb,**/*.shtm,**/*.shtml,**/*.cmp,**/*.twig
+13:27:53.554 DEBUG: Declared extensions of language JSP were converted to sonar.lang.patterns.jsp : **/*.jsp,**/*.jspf,**/*.jspx
+13:27:53.554 DEBUG: Declared extensions of language Flex were converted to sonar.lang.patterns.flex : **/*.as
+13:27:53.554 DEBUG: Declared extensions of language XML were converted to sonar.lang.patterns.xml : **/*.xml,**/*.xsd,**/*.xsl
+13:27:53.554 DEBUG: Declared extensions of language Text were converted to sonar.lang.patterns.text : 
+13:27:53.554 DEBUG: Declared extensions of language Secrets were converted to sonar.lang.patterns.secrets : 
+13:27:53.554 DEBUG: Declared extensions of language VB.NET were converted to sonar.lang.patterns.vbnet : **/*.vb
+13:27:53.554 DEBUG: Declared extensions of language Swift were converted to sonar.lang.patterns.swift : **/*.swift
+13:27:53.555 DEBUG: Declared extensions of language C were converted to sonar.lang.patterns.c : **/*.c,**/*.h
+13:27:53.555 DEBUG: Declared extensions of language C++ were converted to sonar.lang.patterns.cpp : **/*.cc,**/*.cpp,**/*.cxx,**/*.c++,**/*.hh,**/*.hpp,**/*.hxx,**/*.h++,**/*.ipp
+13:27:53.555 DEBUG: Declared extensions of language Objective-C were converted to sonar.lang.patterns.objc : **/*.m
+13:27:53.555 DEBUG: Declared extensions of language Python were converted to sonar.lang.patterns.py : **/*.py
+13:27:53.555 DEBUG: Declared extensions of language Go were converted to sonar.lang.patterns.go : **/*.go
+13:27:53.555 DEBUG: Declared extensions of language Kotlin were converted to sonar.lang.patterns.kotlin : **/*.kt
+13:27:53.555 DEBUG: Declared extensions of language T-SQL were converted to sonar.lang.patterns.tsql : **/*.tsql
+13:27:53.555 DEBUG: Declared extensions of language Apex were converted to sonar.lang.patterns.apex : **/*.cls,**/*.trigger
+13:27:53.555 DEBUG: Declared extensions of language JavaScript were converted to sonar.lang.patterns.js : **/*.js,**/*.jsx,**/*.cjs,**/*.mjs,**/*.vue
+13:27:53.556 DEBUG: Declared extensions of language TypeScript were converted to sonar.lang.patterns.ts : **/*.ts,**/*.tsx,**/*.cts,**/*.mts
+13:27:53.556 DEBUG: Declared extensions of language CSS were converted to sonar.lang.patterns.css : **/*.css,**/*.less,**/*.scss
+13:27:53.556 DEBUG: Declared extensions of language Ruby were converted to sonar.lang.patterns.ruby : **/*.rb
+13:27:53.556 DEBUG: Declared extensions of language COBOL were converted to sonar.lang.patterns.cobol : 
+13:27:53.556 DEBUG: Declared extensions of language PHP were converted to sonar.lang.patterns.php : **/*.php,**/*.php3,**/*.php4,**/*.php5,**/*.phtml,**/*.inc
+13:27:53.556 DEBUG: Declared extensions of language ABAP were converted to sonar.lang.patterns.abap : **/*.abap,**/*.ab4,**/*.flow,**/*.asprog
+13:27:53.556 DEBUG: Declared extensions of language YAML were converted to sonar.lang.patterns.yaml : **/*.yaml,**/*.yml
+13:27:53.556 DEBUG: Declared extensions of language JSON were converted to sonar.lang.patterns.json : **/*.json
+13:27:53.557 DEBUG: Will ignore generated code
+13:27:53.558 DEBUG: Will ignore generated code
+13:27:53.567 INFO: Indexing files...
+13:27:53.567 INFO: Project configuration:
+13:27:53.576 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/config, create new FileSnapshot: lastRead=2023-03-07 13:27:53.576471000, lastModified=2022-12-20 12:06:33.424462000, size=412, fileKey=(dev=1000012,ino=52129701)
+13:27:53.580 DEBUG: file=null, size changed from -1 to 378 bytes
+13:27:53.580 DEBUG: loading config FileBasedConfig[/Users/mickael/.config/jgit/config]
+13:27:53.580 DEBUG: file=/Users/mickael/.config/jgit/config, create new FileSnapshot: lastRead=2023-03-07 13:27:53.580368000, lastModified=2023-02-07 13:50:48.100920000, size=378, fileKey=(dev=1000012,ino=56210722)
+13:27:53.582 DEBUG: readpipe [/usr/local/bin/git, --version],/usr/local/bin
+13:27:53.626 DEBUG: readpipe may return 'git version 2.33.0'
+13:27:53.626 DEBUG: remaining output:
+
+13:27:53.628 DEBUG: readpipe [/usr/local/bin/git, config, --system, --show-origin, --list, -z],/usr/local/bin
+13:27:53.655 DEBUG: readpipe may return 'file:/usr/local/git/etc/gitconfig core.excludesfile'
+13:27:53.655 DEBUG: remaining output:
+
+13:27:53.655 DEBUG: ~/.gitignore file:/usr/local/git/etc/gitconfig core.legacyheaders
+13:27:53.655 DEBUG: false file:/usr/local/git/etc/gitconfig core.quotepath
+13:27:53.655 DEBUG: false file:/usr/local/git/etc/gitconfig mergetool.keepbackup
+13:27:53.655 DEBUG: true file:/usr/local/git/etc/gitconfig push.default
+13:27:53.655 DEBUG: simple file:/usr/local/git/etc/gitconfig color.ui
+13:27:53.655 DEBUG: auto file:/usr/local/git/etc/gitconfig color.interactive
+13:27:53.655 DEBUG: auto file:/usr/local/git/etc/gitconfig repack.usedeltabaseoffset
+13:27:53.655 DEBUG: true file:/usr/local/git/etc/gitconfig alias.s
+13:27:53.655 DEBUG: status file:/usr/local/git/etc/gitconfig alias.a
+13:27:53.655 DEBUG: !git add . && git status file:/usr/local/git/etc/gitconfig alias.au
+13:27:53.655 DEBUG: !git add -u . && git status file:/usr/local/git/etc/gitconfig alias.aa
+13:27:53.656 DEBUG: !git add . && git add -u . && git status file:/usr/local/git/etc/gitconfig alias.c
+13:27:53.656 DEBUG: commit file:/usr/local/git/etc/gitconfig alias.cm
+13:27:53.656 DEBUG: commit -m file:/usr/local/git/etc/gitconfig alias.ca
+13:27:53.656 DEBUG: commit --amend file:/usr/local/git/etc/gitconfig alias.ac
+13:27:53.656 DEBUG: !git add . && git commit file:/usr/local/git/etc/gitconfig alias.acm
+13:27:53.656 DEBUG: !git add . && git commit -m file:/usr/local/git/etc/gitconfig alias.l
+13:27:53.656 DEBUG: log --graph --all --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset' file:/usr/local/git/etc/gitconfig alias.ll
+13:27:53.656 DEBUG: log --stat --abbrev-commit file:/usr/local/git/etc/gitconfig alias.lg
+13:27:53.656 DEBUG: log --color --graph --pretty=format:'%C(bold white)%h%Creset -%C(bold green)%d%Creset %s %C(bold green)(%cr)%Creset %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative file:/usr/local/git/etc/gitconfig alias.llg
+13:27:53.656 DEBUG: log --color --graph --pretty=format:'%C(bold white)%H %d%Creset%n%s%n%+b%C(bold blue)%an <%ae>%Creset %C(bold green)%cr (%ci)' --abbrev-commit file:/usr/local/git/etc/gitconfig alias.d
+13:27:53.656 DEBUG: diff file:/usr/local/git/etc/gitconfig alias.master
+13:27:53.656 DEBUG: checkout master file:/usr/local/git/etc/gitconfig alias.spull
+13:27:53.656 DEBUG: svn rebase file:/usr/local/git/etc/gitconfig alias.spush
+13:27:53.656 DEBUG: svn dcommit file:/usr/local/git/etc/gitconfig alias.alias
+13:27:53.656 DEBUG: !git config --list | grep 'alias\.' | sed 's/alias\.\([^=]*\)=\(.*\)/\1\	 => \2/' | sort file:/usr/local/git/etc/gitconfig include.path
+13:27:53.656 DEBUG: ~/.gitcinclude file:/usr/local/git/etc/gitconfig include.path
+13:27:53.656 DEBUG: .githubconfig file:/usr/local/git/etc/gitconfig include.path
+13:27:53.656 DEBUG: .gitcredential file:/usr/local/git/etc/gitconfig diff.exif.textconv
+13:27:53.656 DEBUG: exif file:/usr/local/git/etc/gitconfig credential.helper
+13:27:53.656 DEBUG: osxkeychain 
+13:27:53.656 DEBUG: file=/Users/mickael/.config/jgit/config, isRacyClean=false, read=2023-03-07 13:27:53.580368000, lastModified=2023-02-07 13:50:48.100920000, delta=2417825479448000 ns, racy<=2500000000 ns
+13:27:53.656 DEBUG: file=/Users/mickael/.config/jgit/config, is unmodified
+13:27:53.656 DEBUG: file=null, size changed from -1 to 1666 bytes
+13:27:53.656 DEBUG: loading config FileBasedConfig[/usr/local/git/etc/gitconfig]
+13:27:53.657 DEBUG: file=/usr/local/git/etc/gitconfig, create new FileSnapshot: lastRead=2023-03-07 13:27:53.657000000, lastModified=2021-08-30 18:52:37.000000000, size=1666, fileKey=(dev=1000012,ino=37911470)
+13:27:53.657 DEBUG: file=/Users/mickael/.config/jgit/config, isRacyClean=false, read=2023-03-07 13:27:53.580368000, lastModified=2023-02-07 13:50:48.100920000, delta=2417825479448000 ns, racy<=2500000000 ns
+13:27:53.657 DEBUG: file=/Users/mickael/.config/jgit/config, is unmodified
+13:27:53.657 DEBUG: file=/usr/local/git/etc/gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.657000000, lastModified=2021-08-30 18:52:37.000000000, delta=47849716657000000 ns, racy<=2500000000 ns
+13:27:53.657 DEBUG: file=/usr/local/git/etc/gitconfig, is unmodified
+13:27:53.658 DEBUG: file=null, size changed from -1 to 246 bytes
+13:27:53.658 DEBUG: loading config FileBasedConfig[/Users/mickael/.gitconfig]
+13:27:53.658 DEBUG: file=/Users/mickael/.gitconfig, create new FileSnapshot: lastRead=2023-03-07 13:27:53.658085000, lastModified=2022-10-05 09:14:33.306822000, size=246, fileKey=(dev=1000012,ino=37912432)
+13:27:53.658 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/config, create new FileSnapshot: lastRead=2023-03-07 13:27:53.658325000, lastModified=2022-12-20 12:06:33.424462000, size=412, fileKey=(dev=1000012,ino=52129701)
+13:27:53.659 DEBUG: file=/Users/mickael/.config/jgit/config, isRacyClean=false, read=2023-03-07 13:27:53.580368000, lastModified=2023-02-07 13:50:48.100920000, delta=2417825479448000 ns, racy<=2500000000 ns
+13:27:53.659 DEBUG: file=/Users/mickael/.config/jgit/config, is unmodified
+13:27:53.659 DEBUG: file=/usr/local/git/etc/gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.657000000, lastModified=2021-08-30 18:52:37.000000000, delta=47849716657000000 ns, racy<=2500000000 ns
+13:27:53.659 DEBUG: file=/usr/local/git/etc/gitconfig, is unmodified
+13:27:53.659 DEBUG: file=/Users/mickael/.gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.658085000, lastModified=2022-10-05 09:14:33.306822000, delta=13238000351263000 ns, racy<=2500000000 ns
+13:27:53.659 DEBUG: file=/Users/mickael/.gitconfig, is unmodified
+13:27:53.659 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/config, isRacyClean=false, read=2023-03-07 13:27:53.658325000, lastModified=2022-12-20 12:06:33.424462000, delta=6657680233863000 ns, racy<=2500000000 ns
+13:27:53.659 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/config, is unmodified
+13:27:53.667 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/index, create new FileSnapshot: lastRead=2023-03-07 13:27:53.667310000, lastModified=2022-12-20 12:06:33.419990000, size=1300, fileKey=(dev=1000012,ino=52129696)
+13:27:53.670 DEBUG: file=/Users/mickael/.config/jgit/config, isRacyClean=false, read=2023-03-07 13:27:53.580368000, lastModified=2023-02-07 13:50:48.100920000, delta=2417825479448000 ns, racy<=2500000000 ns
+13:27:53.671 DEBUG: file=/Users/mickael/.config/jgit/config, is unmodified
+13:27:53.671 DEBUG: file=/usr/local/git/etc/gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.657000000, lastModified=2021-08-30 18:52:37.000000000, delta=47849716657000000 ns, racy<=2500000000 ns
+13:27:53.671 DEBUG: file=/usr/local/git/etc/gitconfig, is unmodified
+13:27:53.671 DEBUG: file=/Users/mickael/.gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.658085000, lastModified=2022-10-05 09:14:33.306822000, delta=13238000351263000 ns, racy<=2500000000 ns
+13:27:53.671 DEBUG: file=/Users/mickael/.gitconfig, is unmodified
+13:27:53.671 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/config, isRacyClean=false, read=2023-03-07 13:27:53.658325000, lastModified=2022-12-20 12:06:33.424462000, delta=6657680233863000 ns, racy<=2500000000 ns
+13:27:53.671 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/config, is unmodified
+13:27:53.672 DEBUG: file=/Users/mickael/.config/jgit/config, isRacyClean=false, read=2023-03-07 13:27:53.580368000, lastModified=2023-02-07 13:50:48.100920000, delta=2417825479448000 ns, racy<=2500000000 ns
+13:27:53.672 DEBUG: file=/Users/mickael/.config/jgit/config, is unmodified
+13:27:53.672 DEBUG: file=/usr/local/git/etc/gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.657000000, lastModified=2021-08-30 18:52:37.000000000, delta=47849716657000000 ns, racy<=2500000000 ns
+13:27:53.672 DEBUG: file=/usr/local/git/etc/gitconfig, is unmodified
+13:27:53.672 DEBUG: file=/Users/mickael/.gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.658085000, lastModified=2022-10-05 09:14:33.306822000, delta=13238000351263000 ns, racy<=2500000000 ns
+13:27:53.672 DEBUG: file=/Users/mickael/.gitconfig, is unmodified
+13:27:53.672 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/config, isRacyClean=false, read=2023-03-07 13:27:53.658325000, lastModified=2022-12-20 12:06:33.424462000, delta=6657680233863000 ns, racy<=2500000000 ns
+13:27:53.672 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/config, is unmodified
+13:27:53.675 DEBUG: file=/Users/mickael/.config/jgit/config, isRacyClean=false, read=2023-03-07 13:27:53.580368000, lastModified=2023-02-07 13:50:48.100920000, delta=2417825479448000 ns, racy<=2500000000 ns
+13:27:53.675 DEBUG: file=/Users/mickael/.config/jgit/config, is unmodified
+13:27:53.675 DEBUG: file=/usr/local/git/etc/gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.657000000, lastModified=2021-08-30 18:52:37.000000000, delta=47849716657000000 ns, racy<=2500000000 ns
+13:27:53.675 DEBUG: file=/usr/local/git/etc/gitconfig, is unmodified
+13:27:53.675 DEBUG: file=/Users/mickael/.gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.658085000, lastModified=2022-10-05 09:14:33.306822000, delta=13238000351263000 ns, racy<=2500000000 ns
+13:27:53.675 DEBUG: file=/Users/mickael/.gitconfig, is unmodified
+13:27:53.675 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/config, isRacyClean=false, read=2023-03-07 13:27:53.658325000, lastModified=2022-12-20 12:06:33.424462000, delta=6657680233863000 ns, racy<=2500000000 ns
+13:27:53.675 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/config, is unmodified
+13:27:53.676 DEBUG: file=/Users/mickael/.config/jgit/config, isRacyClean=false, read=2023-03-07 13:27:53.580368000, lastModified=2023-02-07 13:50:48.100920000, delta=2417825479448000 ns, racy<=2500000000 ns
+13:27:53.676 DEBUG: file=/Users/mickael/.config/jgit/config, is unmodified
+13:27:53.676 DEBUG: file=/usr/local/git/etc/gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.657000000, lastModified=2021-08-30 18:52:37.000000000, delta=47849716657000000 ns, racy<=2500000000 ns
+13:27:53.676 DEBUG: file=/usr/local/git/etc/gitconfig, is unmodified
+13:27:53.676 DEBUG: file=/Users/mickael/.gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.658085000, lastModified=2022-10-05 09:14:33.306822000, delta=13238000351263000 ns, racy<=2500000000 ns
+13:27:53.676 DEBUG: file=/Users/mickael/.gitconfig, is unmodified
+13:27:53.676 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/config, isRacyClean=false, read=2023-03-07 13:27:53.658325000, lastModified=2022-12-20 12:06:33.424462000, delta=6657680233863000 ns, racy<=2500000000 ns
+13:27:53.676 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/config, is unmodified
+13:27:53.680 DEBUG: 15 non excluded files in this Git repository
+13:27:53.687 DEBUG: 'placeholder.py' indexed with language 'py'
+13:27:53.690 DEBUG: 'python/hello.py' indexed with language 'py'
+13:27:53.690 DEBUG: 'python/__init__.py' indexed with language 'py'
+13:27:53.691 DEBUG: 'python/page.py' indexed with language 'py'
+13:27:53.691 DEBUG: 'python/hello - Copy.py' indexed with language 'py'
+13:27:53.692 DEBUG: 'python/choices.py' indexed with language 'py'
+13:27:53.692 DEBUG: 'README.md' indexed with language 'null'
+13:27:53.693 DEBUG: 'permissions.py' indexed with language 'py'
+13:27:53.694 DEBUG: 'scanlogswithcfcache6.txt' indexed with language 'null'
+13:27:53.698 DEBUG: 'javascript/regex.ts' generated metadata with charset 'UTF-8'
+13:27:53.701 DEBUG: 'javascript/regex.ts' indexed with language 'ts'
+13:27:53.702 DEBUG: 'javascript/test.js' generated metadata with charset 'UTF-8'
+13:27:53.702 DEBUG: Average line length for javascript/test.js is 3
+13:27:53.703 DEBUG: 'javascript/test.js' indexed with language 'js'
+13:27:53.704 DEBUG: 'javascript/helloworld.ts' generated metadata with charset 'UTF-8'
+13:27:53.705 DEBUG: 'javascript/helloworld.ts' indexed with language 'ts'
+13:27:53.706 DEBUG: 'javascript/helloworld.js' generated metadata with charset 'UTF-8'
+13:27:53.706 DEBUG: Average line length for javascript/helloworld.js is 65
+13:27:53.706 DEBUG: File javascript/helloworld.js was excluded because it looks like a bundle. (Disable detection with sonar.javascript.detectBundles=false)
+13:27:53.706 INFO: Some of the project files were automatically excluded because they looked like generated code. Enable debug logging to see which files were excluded. You can disable bundle detection by setting sonar.javascript.detectBundles=false
+13:27:53.706 DEBUG: 'javascript/helloworld.js' excluded by org.sonar.plugins.javascript.filter.JavaScriptExclusionsFileFilter
+13:27:53.707 DEBUG: 'javascript/regex.js' generated metadata with charset 'UTF-8'
+13:27:53.707 DEBUG: Average line length for javascript/regex.js is 33
+13:27:53.707 DEBUG: 'javascript/regex.js' indexed with language 'js'
+13:27:53.710 INFO: 13 files indexed
+13:27:53.710 INFO: 0 files ignored because of scm ignore settings
+13:27:53.710 INFO: Quality profile for js: Sonar way
+13:27:53.710 INFO: Quality profile for py: Sonar way
+13:27:53.710 INFO: Quality profile for ts: Sonar way
+13:27:53.856 INFO: ------------- Run sensors on module mickael_python
+13:27:53.933 INFO: Load metrics repository
+13:27:54.261 DEBUG: GET 200 https://pr-4981-core.sc-dev.io/api/metrics/search?f=name,description,direction,qualitative&ps=500&p=1 | time=326ms
+13:27:54.285 INFO: Load metrics repository (done) | time=352ms
+13:27:54.908 DEBUG: Adding rules for repository 'jssecurity', language: JAVASCRIPT, [class com.sonar.security.frontend.js.rules.DomOpenRedirectCheck, class com.sonar.security.frontend.js.rules.DomXssCheck, class com.sonar.security.frontend.js.rules.DynamicCodeExecutionCheck, class com.sonar.security.frontend.js.rules.FilePathInjectionCheck, class com.sonar.security.frontend.js.rules.HttpRedirectionCheck, class com.sonar.security.frontend.js.rules.NoSQLInjectionCheck, class com.sonar.security.frontend.js.rules.OSArgumentConstructionCheck, class com.sonar.security.frontend.js.rules.OSArgumentInjectionCheck, class com.sonar.security.frontend.js.rules.OSCommandInjectionCheck, class com.sonar.security.frontend.js.rules.ReflectedXssCheck, class com.sonar.security.frontend.js.rules.RegularExpressionDoSCheck, class com.sonar.security.frontend.js.rules.ServerSideRequestCheck, class com.sonar.security.frontend.js.rules.SQLInjectionCheck, class com.sonar.security.frontend.js.rules.ZipSlipCheck, class com.sonar.security.frontend.js.rules.SessionFixationCheck] from com.sonar.security.frontend.js.F
+13:27:54.910 DEBUG: Adding rules for repository 'tssecurity', language: TYPESCRIPT, [class com.sonar.security.frontend.js.rules.DomOpenRedirectCheck, class com.sonar.security.frontend.js.rules.DomXssCheck, class com.sonar.security.frontend.js.rules.DynamicCodeExecutionCheck, class com.sonar.security.frontend.js.rules.FilePathInjectionCheck, class com.sonar.security.frontend.js.rules.HttpRedirectionCheck, class com.sonar.security.frontend.js.rules.NoSQLInjectionCheck, class com.sonar.security.frontend.js.rules.OSArgumentConstructionCheck, class com.sonar.security.frontend.js.rules.OSArgumentInjectionCheck, class com.sonar.security.frontend.js.rules.OSCommandInjectionCheck, class com.sonar.security.frontend.js.rules.ReflectedXssCheck, class com.sonar.security.frontend.js.rules.RegularExpressionDoSCheck, class com.sonar.security.frontend.js.rules.ServerSideRequestCheck, class com.sonar.security.frontend.js.rules.SQLInjectionCheck, class com.sonar.security.frontend.js.rules.ZipSlipCheck, class com.sonar.security.frontend.js.rules.SessionFixationCheck] from com.sonar.security.frontend.js.B
+13:27:55.042 DEBUG: 'JavaSensor' skipped because there is no related file in current project
+13:27:55.042 DEBUG: 'CobolSquidSensor' skipped because there is no related file in current project
+13:27:55.042 DEBUG: 'Import external issues report' skipped because one of the required properties is missing
+13:27:55.042 DEBUG: 'IaC Terraform Sensor' skipped because there is no related file in current project
+13:27:55.042 DEBUG: 'IaC CloudFormation Sensor' skipped because there is no related file in current project
+13:27:55.042 DEBUG: 'IaC Kubernetes Sensor' skipped because there is no related file in current project
+13:27:55.043 DEBUG: 'PL/SQL Sensor' skipped because there is no related file in current project
+13:27:55.043 DEBUG: 'Scala Sensor' skipped because there is no related file in current project
+13:27:55.043 DEBUG: 'Scoverage sensor for Scala coverage' skipped because there is no related file in current project
+13:27:55.043 DEBUG: 'Import of Scalastyle issues' skipped because there is no related file in current project
+13:27:55.043 DEBUG: 'Import of Scapegoat issues' skipped because there is no related file in current project
+13:27:55.043 DEBUG: 'Import of Checkstyle issues' skipped because there is no related file in current project
+13:27:55.043 DEBUG: 'Import of PMD issues' skipped because one of the required properties is missing
+13:27:55.044 DEBUG: 'Import of SpotBugs issues' skipped because there is no related file in current project
+13:27:55.044 DEBUG: 'SurefireSensor' skipped because there is no related file in current project
+13:27:55.044 DEBUG: 'Removed properties sensor' skipped because there is no related file in current project
+13:27:55.044 DEBUG: 'Flex' skipped because there is no related file in current project
+13:27:55.044 DEBUG: 'Flex Cobertura' skipped because there is no related file in current project
+13:27:55.044 DEBUG: 'XML Sensor' skipped because there is no related file in current project
+13:27:55.044 DEBUG: 'TextAndSecretsSensor' skipped because there is no related rule activated in the quality profile
+13:27:55.044 DEBUG: 'Swift Code Quality and Security' skipped because there is no related file in current project
+13:27:55.045 DEBUG: 'Import of SwiftLint issues' skipped because there is no related file in current project
+13:27:55.045 DEBUG: 'gcov' skipped because there is no related file in current project
+13:27:55.045 DEBUG: 'llvm-cov' skipped because there is no related file in current project
+13:27:55.045 DEBUG: 'cppunit' skipped because there is no related file in current project
+13:27:55.045 DEBUG: 'VisualStudioCoverage' skipped because there is no related file in current project
+13:27:55.045 DEBUG: 'bullseye' skipped because there is no related file in current project
+13:27:55.046 DEBUG: 'Import of Pylint issues' skipped because one of the required properties is missing
+13:27:55.046 DEBUG: 'Import of Bandit issues' skipped because one of the required properties is missing
+13:27:55.046 DEBUG: 'Import of Flake8 issues' skipped because one of the required properties is missing
+13:27:55.046 DEBUG: 'Code Quality and Security for Go' skipped because there is no related file in current project
+13:27:55.046 DEBUG: 'Go Unit Test Report' skipped because there is no related file in current project
+13:27:55.046 DEBUG: 'Go Cover sensor for Go coverage' skipped because one of the required properties is missing
+13:27:55.046 DEBUG: 'Import of go vet issues' skipped because there is no related file in current project
+13:27:55.046 DEBUG: 'Import of Golint issues' skipped because there is no related file in current project
+13:27:55.046 DEBUG: 'Import of GoMetaLinter issues' skipped because there is no related file in current project
+13:27:55.046 DEBUG: 'Import of GolangCI-Lint issues' skipped because there is no related file in current project
+13:27:55.047 DEBUG: 'Kotlin Sensor' skipped because there is no related file in current project
+13:27:55.047 DEBUG: 'KotlinSurefireSensor' skipped because there is no related file in current project
+13:27:55.047 DEBUG: 'Import of detekt issues' skipped because there is no related file in current project
+13:27:55.047 DEBUG: 'Import of Android Lint issues' skipped because one of the required properties is missing
+13:27:55.047 DEBUG: 'Import of ktlint issues' skipped because there is no related file in current project
+13:27:55.047 DEBUG: 'T-SQL Sensor' skipped because there is no related file in current project
+13:27:55.047 DEBUG: 'Apex Sensor' skipped because there is no related file in current project
+13:27:55.047 DEBUG: 'Test coverage Sensor for Apex' skipped because there is no related file in current project
+13:27:55.047 DEBUG: 'Import of PMD issues' skipped because there is no related file in current project
+13:27:55.048 DEBUG: 'JavaScript inside YAML analysis' skipped because there is no related file in current project
+13:27:55.048 DEBUG: 'JavaScript inside HTML analysis' skipped because there is no related file in current project
+13:27:55.048 DEBUG: 'CSS Rules' skipped because there is no related rule activated in the quality profile
+13:27:55.048 DEBUG: 'JavaScript/TypeScript Coverage' skipped because one of the required properties is missing
+13:27:55.048 DEBUG: 'Import of ESLint issues' skipped because one of the required properties is missing
+13:27:55.048 DEBUG: 'Import of TSLint issues' skipped because one of the required properties is missing
+13:27:55.048 DEBUG: 'CSS Metrics' skipped because there is no related file in current project
+13:27:55.048 DEBUG: 'Import of stylelint issues' skipped because there is no related file in current project
+13:27:55.048 DEBUG: 'Ruby Sensor' skipped because there is no related file in current project
+13:27:55.048 DEBUG: 'Import of RuboCop issues' skipped because there is no related file in current project
+13:27:55.048 DEBUG: 'SimpleCov Sensor for Ruby coverage' skipped because there is no related file in current project
+13:27:55.048 DEBUG: 'PHP sensor' skipped because there is no related file in current project
+13:27:55.048 DEBUG: 'Analyzer for "php.ini" files' skipped because there is no related file in current project
+13:27:55.049 DEBUG: 'Import of PHPStan issues' skipped because there is no related file in current project
+13:27:55.049 DEBUG: 'Import of Psalm issues' skipped because there is no related file in current project
+13:27:55.049 DEBUG: 'AbapSquidSensor' skipped because there is no related file in current project
+13:27:55.052 DEBUG: 'Generic Coverage Report' skipped because one of the required properties is missing
+13:27:55.052 DEBUG: 'Generic Test Executions Report' skipped because one of the required properties is missing
+13:27:55.052 DEBUG: 'CFamily' skipped because there is no related file in current project
+13:27:55.052 DEBUG: Sensors : C# Project Type Information -> C# Analysis Log -> C# Properties -> HTML -> VB.NET Project Type Information -> VB.NET Analysis Log -> VB.NET Properties -> Python Sensor -> Cobertura Sensor for Python coverage -> PythonXUnitSensor -> JaCoCo XML Report Importer -> JavaScript analysis -> TypeScript analysis -> ThymeLeaf template sensor -> Python HTML templates processing -> IaC Docker Sensor -> Serverless configuration file sensor -> AWS SAM template file sensor -> AWS SAM Inline template file sensor -> javabugs -> pythonbugs -> JavaSecuritySensor -> CSharpSecuritySensor -> PhpSecuritySensor -> PythonSecuritySensor -> JsSecuritySensor
+13:27:55.053 INFO: Sensor C# Project Type Information [csharp]
+13:27:55.053 INFO: Sensor C# Project Type Information [csharp] (done) | time=0ms
+13:27:55.053 INFO: Sensor C# Analysis Log [csharp]
+13:27:55.062 DEBUG: Project 'mickael_python': Property missing: 'sonar.cs.analyzer.projectOutPaths'. No protobuf files will be loaded for this project.
+13:27:55.062 INFO: Sensor C# Analysis Log [csharp] (done) | time=9ms
+13:27:55.062 INFO: Sensor C# Properties [csharp]
+13:27:55.063 DEBUG: Project 'mickael_python': Property missing: 'sonar.cs.analyzer.projectOutPaths'. No protobuf files will be loaded for this project.
+13:27:55.063 DEBUG: Project 'mickael_python': No Roslyn issues reports have been found.
+13:27:55.063 INFO: Sensor C# Properties [csharp] (done) | time=1ms
+13:27:55.063 INFO: Sensor HTML [web]
+13:27:55.064 INFO: Sensor HTML [web] (done) | time=1ms
+13:27:55.064 INFO: Sensor VB.NET Project Type Information [vbnet]
+13:27:55.065 INFO: Sensor VB.NET Project Type Information [vbnet] (done) | time=1ms
+13:27:55.065 INFO: Sensor VB.NET Analysis Log [vbnet]
+13:27:55.071 DEBUG: Project 'mickael_python': Property missing: 'sonar.vbnet.analyzer.projectOutPaths'. No protobuf files will be loaded for this project.
+13:27:55.071 INFO: Sensor VB.NET Analysis Log [vbnet] (done) | time=6ms
+13:27:55.071 INFO: Sensor VB.NET Properties [vbnet]
+13:27:55.071 DEBUG: Project 'mickael_python': Property missing: 'sonar.vbnet.analyzer.projectOutPaths'. No protobuf files will be loaded for this project.
+13:27:55.071 DEBUG: Project 'mickael_python': No Roslyn issues reports have been found.
+13:27:55.071 INFO: Sensor VB.NET Properties [vbnet] (done) | time=0ms
+13:27:55.071 INFO: Sensor Python Sensor [python]
+13:27:55.072 WARN: Your code is analyzed as compatible with python 2 and 3 by default. This will prevent the detection of issues specific to python 2 or python 3. You can get a more precise analysis by setting a python version in your configuration via the parameter "sonar.python.version"
+13:27:55.078 DEBUG: Input files for indexing: [python/hello - Copy.py, placeholder.py, permissions.py, python/__init__.py, python/page.py, python/choices.py, python/hello.py]
+13:27:55.078 INFO: Starting global symbols computation
+13:27:55.079 DEBUG: 'python/hello - Copy.py' generated metadata with charset 'UTF-8'
+13:27:55.082 INFO: 7 source files to be analyzed
+13:27:55.183 DEBUG: 'placeholder.py' generated metadata with charset 'UTF-8'
+13:27:55.236 DEBUG: 'permissions.py' generated metadata with charset 'UTF-8'
+13:27:55.249 DEBUG: 'python/__init__.py' generated metadata with charset 'UTF-8'
+13:27:55.256 DEBUG: 'python/page.py' generated metadata with charset 'UTF-8'
+13:27:55.270 DEBUG: 'python/choices.py' generated metadata with charset 'UTF-8'
+13:27:55.274 DEBUG: 'python/hello.py' generated metadata with charset 'UTF-8'
+13:27:55.278 INFO: 7/7 source files have been analyzed
+13:27:55.278 INFO: Starting rules execution
+13:27:55.278 INFO: 7 source files to be analyzed
+13:27:55.285 DEBUG: Not enough content in 'python/hello - Copy.py' to have CPD blocks, it will not be part of the duplication detection
+13:27:55.362 DEBUG: Not enough content in 'python/hello.py' to have CPD blocks, it will not be part of the duplication detection
+13:27:55.364 INFO: 7/7 source files have been analyzed
+13:27:55.364 INFO: The Python analyzer was able to leverage cached data from previous analyses for 0 out of 7 files. These files were not parsed.
+13:27:55.364 INFO: Sensor Python Sensor [python] (done) | time=293ms
+13:27:55.364 INFO: Sensor Cobertura Sensor for Python coverage [python]
+13:27:55.364 DEBUG: Using pattern 'coverage-reports/*coverage-*.xml' to find reports
+13:27:55.370 DEBUG: No report was found for sonar.python.coverage.reportPaths using default pattern coverage-reports/*coverage-*.xml
+13:27:55.370 INFO: Sensor Cobertura Sensor for Python coverage [python] (done) | time=6ms
+13:27:55.370 INFO: Sensor PythonXUnitSensor [python]
+13:27:55.370 DEBUG: Using pattern 'xunit-reports/xunit-result-*.xml' to find reports
+13:27:55.374 DEBUG: No report was found for sonar.python.xunit.reportPath using default pattern xunit-reports/xunit-result-*.xml
+13:27:55.374 INFO: Sensor PythonXUnitSensor [python] (done) | time=4ms
+13:27:55.374 INFO: Sensor JaCoCo XML Report Importer [jacoco]
+13:27:55.375 INFO: 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+13:27:55.375 INFO: No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+13:27:55.375 INFO: Sensor JaCoCo XML Report Importer [jacoco] (done) | time=1ms
+13:27:55.375 INFO: Sensor JavaScript analysis [javascript]
+13:27:55.377 DEBUG: Deploying bundle
+13:27:55.377 DEBUG: Deploying eslint-bridge into /Users/mickael/Documents/Code/Examples/python/.scannerwork/.sonartmp/eslint-bridge-bundle
+13:27:58.433 DEBUG: Deploying bundle (done) | time=3056ms
+13:27:58.434 DEBUG: Deploying custom rules bundle jar:file:/Users/mickael/.sonar/cache/fef558351db30c88e54844ea40bb0406/sonar-securityjsfrontend-plugin.jar!/js-vulnerabilities-rules-1.0.0.tgz to /Users/mickael/Documents/Code/Examples/python/.scannerwork/.sonartmp/eslint-bridge-bundle/package/custom-rules6184560071401608632
+13:27:58.436 DEBUG: Starting server
+13:27:58.438 DEBUG: Looking for Node.js in the PATH using run-node (macOS)
+13:27:58.439 DEBUG: Using default Node.js executable: '/Users/mickael/Documents/Code/Examples/python/.scannerwork/.sonartmp/eslint-bridge-bundle/package/node_modules/run-node/run-node'.
+13:27:58.439 DEBUG: Checking Node.js version
+13:27:58.439 DEBUG: Launching command /Users/mickael/Documents/Code/Examples/python/.scannerwork/.sonartmp/eslint-bridge-bundle/package/node_modules/run-node/run-node -v
+13:27:58.773 DEBUG: Using Node.js v18.13.0.
+13:27:58.773 DEBUG: Starting Node.js process to start eslint-bridge server at port 52382
+13:27:58.773 DEBUG: Launching command /Users/mickael/Documents/Code/Examples/python/.scannerwork/.sonartmp/eslint-bridge-bundle/package/node_modules/run-node/run-node /Users/mickael/Documents/Code/Examples/python/.scannerwork/.sonartmp/eslint-bridge-bundle/package/bin/server 52382 127.0.0.1 /Users/mickael/Documents/Code/Examples/python/.scannerwork true false /Users/mickael/Documents/Code/Examples/python/.scannerwork/.sonartmp/eslint-bridge-bundle/package/custom-rules6184560071401608632/package
+13:27:59.892 DEBUG: starting eslint-bridge server at port 52382
+13:27:59.898 DEBUG: eslint-bridge server is running at port 52382
+13:28:00.033 DEBUG: Starting server (done) | time=1597ms
+13:28:00.040 DEBUG: Using generated tsconfig.json file /Users/mickael/Documents/Code/Examples/python/.scannerwork/.sonartmp/4899904352464089133.tmp
+13:28:00.041 DEBUG: Analysis of unchanged files will not be skipped (current analysis requires all files to be analyzed)
+13:28:00.041 INFO: 2 source files to be analyzed
+13:28:00.049 DEBUG: Initializing linter "default" with
+13:28:00.067 DEBUG: Loaded rules ucfg from /Users/mickael/Documents/Code/Examples/python/.scannerwork/.sonartmp/eslint-bridge-bundle/package/custom-rules6184560071401608632/package
+13:28:00.073 DEBUG: Cache strategy set to 'WRITE_ONLY' for file 'javascript/test.js' as current analysis requires all files to be analyzed
+13:28:00.073 DEBUG: Analyzing file: file:///Users/mickael/Documents/Code/Examples/python/javascript/test.js
+13:28:00.076 DEBUG: Analyzing file "/Users/mickael/Documents/Code/Examples/python/javascript/test.js" with linterId "default"
+13:28:00.278 DEBUG: Not enough content in 'javascript/test.js' to have CPD blocks, it will not be part of the duplication detection
+13:28:00.279 DEBUG: Cache entry created for key 'jssecurity:ucfgs:SEQ:10.0.1.20755:mickael_python:javascript/test.js' containing 0 file(s)
+13:28:00.280 DEBUG: Cache entry created for key 'jssecurity:ucfgs:JSON:10.0.1.20755:mickael_python:javascript/test.js'
+13:28:00.281 DEBUG: Cache entry created for key 'js:filemetadata:10.0.1.20755:mickael_python:javascript/test.js'
+13:28:00.283 DEBUG: Cache strategy set to 'WRITE_ONLY' for file 'javascript/regex.js' as current analysis requires all files to be analyzed
+13:28:00.283 DEBUG: Analyzing file: file:///Users/mickael/Documents/Code/Examples/python/javascript/regex.js
+13:28:00.285 DEBUG: Analyzing file "/Users/mickael/Documents/Code/Examples/python/javascript/regex.js" with linterId "default"
+13:28:00.296 DEBUG: Not enough content in 'javascript/regex.js' to have CPD blocks, it will not be part of the duplication detection
+13:28:00.296 DEBUG: Cache entry created for key 'jssecurity:ucfgs:SEQ:10.0.1.20755:mickael_python:javascript/regex.js' containing 0 file(s)
+13:28:00.296 DEBUG: Cache entry created for key 'jssecurity:ucfgs:JSON:10.0.1.20755:mickael_python:javascript/regex.js'
+13:28:00.297 DEBUG: Cache entry created for key 'js:filemetadata:10.0.1.20755:mickael_python:javascript/regex.js'
+13:28:00.297 INFO: 2/2 source files have been analyzed
+13:28:00.297 INFO: Hit the cache for 0 out of 2
+13:28:00.298 INFO: Miss the cache for 2 out of 2: ANALYSIS_MODE_INELIGIBLE [2/2]
+13:28:00.298 INFO: Sensor JavaScript analysis [javascript] (done) | time=4923ms
+13:28:00.298 INFO: Sensor TypeScript analysis [javascript]
+13:28:00.300 DEBUG: eslint-bridge server is up, no need to start.
+13:28:00.300 DEBUG: Analysis of unchanged files will not be skipped (current analysis requires all files to be analyzed)
+13:28:00.301 DEBUG: Initializing linter "default" with
+13:28:00.301 DEBUG: Loaded rules ucfg from /Users/mickael/Documents/Code/Examples/python/.scannerwork/.sonartmp/eslint-bridge-bundle/package/custom-rules6184560071401608632/package
+13:28:00.303 DEBUG: Analysis of unchanged files will not be skipped (current analysis requires all files to be analyzed)
+13:28:00.322 INFO: Found 0 tsconfig.json file(s): []
+13:28:00.322 INFO: No tsconfig.json file found
+13:28:00.322 INFO: Skipped 2 file(s) because they were not part of any tsconfig.json (enable debug logs to see the full list)
+13:28:00.322 INFO: 2 source files to be analyzed
+13:28:00.323 DEBUG: File not part of any tsconfig.json: javascript/regex.ts
+13:28:00.323 DEBUG: File not part of any tsconfig.json: javascript/helloworld.ts
+13:28:00.323 INFO: 2/2 source files have been analyzed
+13:28:00.323 INFO: Hit the cache for 0 out of 0
+13:28:00.323 INFO: Miss the cache for 0 out of 0
+13:28:00.323 INFO: Sensor TypeScript analysis [javascript] (done) | time=25ms
+13:28:00.323 INFO: Sensor ThymeLeaf template sensor [securityjavafrontend]
+13:28:00.323 INFO: javasecurity:S5131 is not activated in quality profile: skipping execution of thymeleaf sensor.
+13:28:00.323 INFO: Sensor ThymeLeaf template sensor [securityjavafrontend] (done) | time=0ms
+13:28:00.323 INFO: Sensor Python HTML templates processing [securitypythonfrontend]
+13:28:00.323 INFO: pythonsecurity:S5131 is not activated in quality profile: skipping execution of Python HTML templates sensor.
+13:28:00.323 INFO: Sensor Python HTML templates processing [securitypythonfrontend] (done) | time=0ms
+13:28:00.323 INFO: Sensor IaC Docker Sensor [iac]
+13:28:00.325 INFO: 0 source files to be analyzed
+13:28:00.357 INFO: 0/0 source files have been analyzed
+13:28:00.357 INFO: Sensor IaC Docker Sensor [iac] (done) | time=34ms
+13:28:00.357 INFO: Sensor Serverless configuration file sensor [security]
+13:28:00.357 INFO: 0 Serverless function entries were found in the project
+13:28:00.358 INFO: 0 Serverless function handlers were kept as entrypoints
+13:28:00.359 INFO: Sensor Serverless configuration file sensor [security] (done) | time=2ms
+13:28:00.359 INFO: Sensor AWS SAM template file sensor [security]
+13:28:00.359 DEBUG: 0 SAM template configuration files were found in the project. 0 SAM function entries were found in total. 0 were kept as potential entrypoints.
+13:28:00.359 INFO: Sensor AWS SAM template file sensor [security] (done) | time=0ms
+13:28:00.359 INFO: Sensor AWS SAM Inline template file sensor [security]
+13:28:00.359 DEBUG: 0 SAM Inline template configuration files were found in the project. 0 SAM Inline function entries were found in total. 0 were kept as potential entrypoints.
+13:28:00.359 INFO: Sensor AWS SAM Inline template file sensor [security] (done) | time=0ms
+13:28:00.359 INFO: Sensor javabugs [dbd]
+13:28:00.360 INFO: Reading IR files from: /Users/mickael/Documents/Code/Examples/python/.scannerwork/ir/java
+13:28:00.360 INFO: No IR files have been included for analysis.
+13:28:00.360 INFO: Sensor javabugs [dbd] (done) | time=1ms
+13:28:00.360 INFO: Sensor pythonbugs [dbd]
+13:28:00.360 DEBUG: Could not load type definitions from /Users/mickael/Documents/Code/Examples/python/.scannerwork/ir/python/collected.typedefs: /Users/mickael/Documents/Code/Examples/python/.scannerwork/ir/python/collected.typedefs (No such file or directory)
+13:28:00.360 INFO: Reading IR files from: /Users/mickael/Documents/Code/Examples/python/.scannerwork/ir/python
+13:28:00.360 INFO: No IR files have been included for analysis.
+13:28:00.360 INFO: Sensor pythonbugs [dbd] (done) | time=0ms
+13:28:00.360 INFO: Sensor JavaSecuritySensor [security]
+13:28:00.361 INFO: No taint analysis rules have been enabled, will not execute taint analysis.
+13:28:00.361 INFO: Sensor JavaSecuritySensor [security] (done) | time=1ms
+13:28:00.361 INFO: Sensor CSharpSecuritySensor [security]
+13:28:00.361 INFO: No taint analysis rules have been enabled, will not execute taint analysis.
+13:28:00.361 INFO: Sensor CSharpSecuritySensor [security] (done) | time=0ms
+13:28:00.361 INFO: Sensor PhpSecuritySensor [security]
+13:28:00.361 INFO: No taint analysis rules have been enabled, will not execute taint analysis.
+13:28:00.361 INFO: Sensor PhpSecuritySensor [security] (done) | time=0ms
+13:28:00.361 INFO: Sensor PythonSecuritySensor [security]
+13:28:00.361 INFO: No taint analysis rules have been enabled, will not execute taint analysis.
+13:28:00.361 INFO: Sensor PythonSecuritySensor [security] (done) | time=0ms
+13:28:00.361 INFO: Sensor JsSecuritySensor [security]
+13:28:00.361 INFO: No taint analysis rules have been enabled, will not execute taint analysis.
+13:28:00.361 INFO: Sensor JsSecuritySensor [security] (done) | time=0ms
+13:28:00.363 INFO: ------------- Run sensors on project
+13:28:00.381 DEBUG: 'C#' skipped because there is no related file in current project
+13:28:00.381 DEBUG: 'C# File Caching Sensor' skipped because there is no related file in current project
+13:28:00.381 DEBUG: 'C# Tests Coverage Report Import' skipped because there is no related file in current project
+13:28:00.381 DEBUG: '[Deprecated] C# Integration Tests Coverage Report Import' skipped because there is no related file in current project
+13:28:00.381 DEBUG: 'C# Unit Test Results Import' skipped because there is no related file in current project
+13:28:00.381 DEBUG: 'VB.NET' skipped because there is no related file in current project
+13:28:00.382 DEBUG: 'VB.NET File Caching Sensor' skipped because there is no related file in current project
+13:28:00.382 DEBUG: 'VB.NET Tests Coverage Report Import' skipped because there is no related file in current project
+13:28:00.382 DEBUG: '[Deprecated] VB.NET Integration Tests Coverage Report Import' skipped because there is no related file in current project
+13:28:00.382 DEBUG: 'VB.NET Unit Test Results Import' skipped because there is no related file in current project
+13:28:00.382 DEBUG: 'Java CPD Block Indexer' skipped because there is no related file in current project
+13:28:00.382 DEBUG: Sensors : Analysis Warnings import -> Zero Coverage Sensor
+13:28:00.382 INFO: Sensor Analysis Warnings import [csharp]
+13:28:00.382 INFO: Sensor Analysis Warnings import [csharp] (done) | time=0ms
+13:28:00.382 INFO: Sensor Zero Coverage Sensor
+13:28:00.388 INFO: Sensor Zero Coverage Sensor (done) | time=5ms
+13:28:00.388 INFO: SCM Publisher SCM provider for this project is: git
+13:28:00.389 INFO: SCM Publisher 11 source files to be analyzed
+13:28:00.390 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/config, create new FileSnapshot: lastRead=2023-03-07 13:28:00.390259000, lastModified=2022-12-20 12:06:33.424462000, size=412, fileKey=(dev=1000012,ino=52129701)
+13:28:00.390 DEBUG: file=/Users/mickael/.config/jgit/config, isRacyClean=false, read=2023-03-07 13:27:53.580368000, lastModified=2023-02-07 13:50:48.100920000, delta=2417825479448000 ns, racy<=2500000000 ns
+13:28:00.390 DEBUG: file=/Users/mickael/.config/jgit/config, is unmodified
+13:28:00.390 DEBUG: file=/usr/local/git/etc/gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.657000000, lastModified=2021-08-30 18:52:37.000000000, delta=47849716657000000 ns, racy<=2500000000 ns
+13:28:00.390 DEBUG: file=/usr/local/git/etc/gitconfig, is unmodified
+13:28:00.390 DEBUG: file=/Users/mickael/.gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.658085000, lastModified=2022-10-05 09:14:33.306822000, delta=13238000351263000 ns, racy<=2500000000 ns
+13:28:00.390 DEBUG: file=/Users/mickael/.gitconfig, is unmodified
+13:28:00.390 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/config, create new FileSnapshot: lastRead=2023-03-07 13:28:00.390745000, lastModified=2022-12-20 12:06:33.424462000, size=412, fileKey=(dev=1000012,ino=52129701)
+13:28:00.390 DEBUG: file=/Users/mickael/.config/jgit/config, isRacyClean=false, read=2023-03-07 13:27:53.580368000, lastModified=2023-02-07 13:50:48.100920000, delta=2417825479448000 ns, racy<=2500000000 ns
+13:28:00.390 DEBUG: file=/Users/mickael/.config/jgit/config, is unmodified
+13:28:00.390 DEBUG: file=/usr/local/git/etc/gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.657000000, lastModified=2021-08-30 18:52:37.000000000, delta=47849716657000000 ns, racy<=2500000000 ns
+13:28:00.390 DEBUG: file=/usr/local/git/etc/gitconfig, is unmodified
+13:28:00.391 DEBUG: file=/Users/mickael/.gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.658085000, lastModified=2022-10-05 09:14:33.306822000, delta=13238000351263000 ns, racy<=2500000000 ns
+13:28:00.391 DEBUG: file=/Users/mickael/.gitconfig, is unmodified
+13:28:00.391 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/config, isRacyClean=false, read=2023-03-07 13:28:00.390745000, lastModified=2022-12-20 12:06:33.424462000, delta=6657686966283000 ns, racy<=2500000000 ns
+13:28:00.391 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/config, is unmodified
+13:28:00.391 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/index, create new FileSnapshot: lastRead=2023-03-07 13:28:00.391115000, lastModified=2022-12-20 12:06:33.419990000, size=1300, fileKey=(dev=1000012,ino=52129696)
+13:28:00.391 DEBUG: Collecting committed files
+13:28:00.395 DEBUG: file=/Users/mickael/.config/jgit/config, isRacyClean=false, read=2023-03-07 13:27:53.580368000, lastModified=2023-02-07 13:50:48.100920000, delta=2417825479448000 ns, racy<=2500000000 ns
+13:28:00.395 DEBUG: file=/Users/mickael/.config/jgit/config, is unmodified
+13:28:00.395 DEBUG: file=/usr/local/git/etc/gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.657000000, lastModified=2021-08-30 18:52:37.000000000, delta=47849716657000000 ns, racy<=2500000000 ns
+13:28:00.395 DEBUG: file=/usr/local/git/etc/gitconfig, is unmodified
+13:28:00.395 DEBUG: file=/Users/mickael/.gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.658085000, lastModified=2022-10-05 09:14:33.306822000, delta=13238000351263000 ns, racy<=2500000000 ns
+13:28:00.395 DEBUG: file=/Users/mickael/.gitconfig, is unmodified
+13:28:00.395 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/config, isRacyClean=false, read=2023-03-07 13:28:00.390745000, lastModified=2022-12-20 12:06:33.424462000, delta=6657686966283000 ns, racy<=2500000000 ns
+13:28:00.395 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/config, is unmodified
+13:28:00.396 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/packed-refs, create new FileSnapshot: lastRead=2023-03-07 13:28:00.396058000, lastModified=2022-12-20 12:05:55.410318000, size=648, fileKey=(dev=1000012,ino=52129586)
+13:28:00.397 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/HEAD, create new FileSnapshot: lastRead=2023-03-07 13:28:00.397442000, lastModified=2022-12-20 12:06:33.425501000, size=38, fileKey=(dev=1000012,ino=52129702)
+13:28:00.397 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/refs/heads/test-pullrequest-demo, create new FileSnapshot: lastRead=2023-03-07 13:28:00.397837000, lastModified=2022-12-20 12:06:37.301657000, size=41, fileKey=(dev=1000012,ino=52129716)
+13:28:00.398 DEBUG: file=/Users/mickael/.config/jgit/config, isRacyClean=false, read=2023-03-07 13:27:53.580368000, lastModified=2023-02-07 13:50:48.100920000, delta=2417825479448000 ns, racy<=2500000000 ns
+13:28:00.398 DEBUG: file=/Users/mickael/.config/jgit/config, is unmodified
+13:28:00.398 DEBUG: file=/usr/local/git/etc/gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.657000000, lastModified=2021-08-30 18:52:37.000000000, delta=47849716657000000 ns, racy<=2500000000 ns
+13:28:00.398 DEBUG: file=/usr/local/git/etc/gitconfig, is unmodified
+13:28:00.398 DEBUG: file=/Users/mickael/.gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.658085000, lastModified=2022-10-05 09:14:33.306822000, delta=13238000351263000 ns, racy<=2500000000 ns
+13:28:00.398 DEBUG: file=/Users/mickael/.gitconfig, is unmodified
+13:28:00.398 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/config, isRacyClean=false, read=2023-03-07 13:28:00.390745000, lastModified=2022-12-20 12:06:33.424462000, delta=6657686966283000 ns, racy<=2500000000 ns
+13:28:00.398 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/config, is unmodified
+13:28:00.400 DEBUG: file=/Users/mickael/.config/jgit/config, isRacyClean=false, read=2023-03-07 13:27:53.580368000, lastModified=2023-02-07 13:50:48.100920000, delta=2417825479448000 ns, racy<=2500000000 ns
+13:28:00.400 DEBUG: file=/Users/mickael/.config/jgit/config, is unmodified
+13:28:00.400 DEBUG: file=/usr/local/git/etc/gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.657000000, lastModified=2021-08-30 18:52:37.000000000, delta=47849716657000000 ns, racy<=2500000000 ns
+13:28:00.400 DEBUG: file=/usr/local/git/etc/gitconfig, is unmodified
+13:28:00.400 DEBUG: file=/Users/mickael/.gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.658085000, lastModified=2022-10-05 09:14:33.306822000, delta=13238000351263000 ns, racy<=2500000000 ns
+13:28:00.400 DEBUG: file=/Users/mickael/.gitconfig, is unmodified
+13:28:00.401 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/packed-refs, isRacyClean=false, read=2023-03-07 13:28:00.396058000, lastModified=2022-12-20 12:05:55.410318000, delta=6657724985740000 ns, racy<=10000 ns
+13:28:00.401 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/packed-refs, is unmodified
+13:28:00.401 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/HEAD, isRacyClean=false, read=2023-03-07 13:28:00.397442000, lastModified=2022-12-20 12:06:33.425501000, delta=6657686971941000 ns, racy<=10000 ns
+13:28:00.401 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/HEAD, is unmodified
+13:28:00.401 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/refs/heads/test-pullrequest-demo, isRacyClean=false, read=2023-03-07 13:28:00.397837000, lastModified=2022-12-20 12:06:37.301657000, delta=6657683096180000 ns, racy<=10000 ns
+13:28:00.401 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/refs/heads/test-pullrequest-demo, is unmodified
+13:28:00.401 DEBUG: file=null, size changed from -1 to 128 bytes
+13:28:00.401 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/objects/pack, create new FileSnapshot: lastRead=2023-03-07 13:28:00.401404000, lastModified=2022-12-20 12:05:55.417196000, size=128, fileKey=(dev=1000012,ino=52129572)
+13:28:00.403 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/objects/pack/pack-802da55e86b222e627ce5769e970973bbd121fa4.pack, create new FileSnapshot: lastRead=2023-03-07 13:28:00.403481000, lastModified=2022-12-20 12:05:55.375640000, size=65823, fileKey=(dev=1000012,ino=52129578)
+13:28:00.405 DEBUG: Opening pack index /Users/mickael/Documents/Code/Examples/python/.git/objects/pack/pack-802da55e86b222e627ce5769e970973bbd121fa4.idx, size 0,009 MB took 2 ms
+13:28:00.406 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/objects/pack, isRacyClean=false, read=2023-03-07 13:28:00.401404000, lastModified=2022-12-20 12:05:55.417196000, delta=6657724984208000 ns, racy<=10000 ns
+13:28:00.406 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/objects/pack, is unmodified
+13:28:00.407 DEBUG: file=/Users/mickael/.config/jgit/config, isRacyClean=false, read=2023-03-07 13:27:53.580368000, lastModified=2023-02-07 13:50:48.100920000, delta=2417825479448000 ns, racy<=2500000000 ns
+13:28:00.407 DEBUG: file=/Users/mickael/.config/jgit/config, is unmodified
+13:28:00.407 DEBUG: file=/usr/local/git/etc/gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.657000000, lastModified=2021-08-30 18:52:37.000000000, delta=47849716657000000 ns, racy<=2500000000 ns
+13:28:00.407 DEBUG: file=/usr/local/git/etc/gitconfig, is unmodified
+13:28:00.407 DEBUG: file=/Users/mickael/.gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.658085000, lastModified=2022-10-05 09:14:33.306822000, delta=13238000351263000 ns, racy<=2500000000 ns
+13:28:00.407 DEBUG: file=/Users/mickael/.gitconfig, is unmodified
+13:28:00.407 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/config, isRacyClean=false, read=2023-03-07 13:28:00.390745000, lastModified=2022-12-20 12:06:33.424462000, delta=6657686966283000 ns, racy<=2500000000 ns
+13:28:00.407 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/config, is unmodified
+13:28:00.409 DEBUG: file=/Users/mickael/.config/jgit/config, isRacyClean=false, read=2023-03-07 13:27:53.580368000, lastModified=2023-02-07 13:50:48.100920000, delta=2417825479448000 ns, racy<=2500000000 ns
+13:28:00.410 DEBUG: file=/Users/mickael/.config/jgit/config, is unmodified
+13:28:00.410 DEBUG: file=/usr/local/git/etc/gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.657000000, lastModified=2021-08-30 18:52:37.000000000, delta=47849716657000000 ns, racy<=2500000000 ns
+13:28:00.410 DEBUG: file=/usr/local/git/etc/gitconfig, is unmodified
+13:28:00.410 DEBUG: file=/Users/mickael/.gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.658085000, lastModified=2022-10-05 09:14:33.306822000, delta=13238000351263000 ns, racy<=2500000000 ns
+13:28:00.410 DEBUG: file=/Users/mickael/.gitconfig, is unmodified
+13:28:00.410 DEBUG: file=/Users/mickael/.config/jgit/config, isRacyClean=false, read=2023-03-07 13:27:53.580368000, lastModified=2023-02-07 13:50:48.100920000, delta=2417825479448000 ns, racy<=2500000000 ns
+13:28:00.410 DEBUG: file=/Users/mickael/.config/jgit/config, is unmodified
+13:28:00.410 DEBUG: file=/usr/local/git/etc/gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.657000000, lastModified=2021-08-30 18:52:37.000000000, delta=47849716657000000 ns, racy<=2500000000 ns
+13:28:00.410 DEBUG: file=/usr/local/git/etc/gitconfig, is unmodified
+13:28:00.410 DEBUG: file=/Users/mickael/.gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.658085000, lastModified=2022-10-05 09:14:33.306822000, delta=13238000351263000 ns, racy<=2500000000 ns
+13:28:00.410 DEBUG: file=/Users/mickael/.gitconfig, is unmodified
+13:28:00.410 DEBUG: Collecting committed files (done) | time=19ms
+13:28:00.428 DEBUG: Found GIT version: 2.33.0
+13:28:00.428 INFO: Blaming files using native implementation
+13:28:00.428 DEBUG: Blame file (native) python/hello - Copy.py
+13:28:00.428 DEBUG: Blame file (native) placeholder.py
+13:28:00.429 DEBUG: Blame file (native) permissions.py
+13:28:00.429 DEBUG: Blame file (native) javascript/test.js
+13:28:00.429 DEBUG: Blame file (native) javascript/regex.js
+13:28:00.429 DEBUG: Blame file (native) python/__init__.py
+13:28:00.429 DEBUG: Blame file (native) javascript/regex.ts
+13:28:00.429 DEBUG: Blame file (native) python/page.py
+13:28:00.429 DEBUG: Blame file (native) python/choices.py
+13:28:00.429 DEBUG: Blame file (native) python/hello.py
+13:28:00.465 DEBUG: Blame file (native) javascript/helloworld.ts
+13:28:00.507 INFO: Blaming files using native implementation (done) | time=79ms
+13:28:00.510 INFO: SCM Publisher 11/11 source files have been analyzed (done) | time=121ms
+13:28:00.512 INFO: CPD Executor 4 files had no CPD blocks
+13:28:00.512 INFO: CPD Executor Calculating CPD for 5 files
+13:28:00.512 DEBUG: Detection of duplications for /Users/mickael/Documents/Code/Examples/python/python/__init__.py
+13:28:00.515 DEBUG: Detection of duplications for /Users/mickael/Documents/Code/Examples/python/placeholder.py
+13:28:00.515 DEBUG: Detection of duplications for /Users/mickael/Documents/Code/Examples/python/permissions.py
+13:28:00.515 DEBUG: Detection of duplications for /Users/mickael/Documents/Code/Examples/python/python/choices.py
+13:28:00.516 DEBUG: Detection of duplications for /Users/mickael/Documents/Code/Examples/python/python/page.py
+13:28:00.516 INFO: CPD Executor CPD calculation finished (done) | time=4ms
+13:28:00.523 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/config, create new FileSnapshot: lastRead=2023-03-07 13:28:00.523635000, lastModified=2022-12-20 12:06:33.424462000, size=412, fileKey=(dev=1000012,ino=52129701)
+13:28:00.523 DEBUG: file=/Users/mickael/.config/jgit/config, isRacyClean=false, read=2023-03-07 13:27:53.580368000, lastModified=2023-02-07 13:50:48.100920000, delta=2417825479448000 ns, racy<=2500000000 ns
+13:28:00.524 DEBUG: file=/Users/mickael/.config/jgit/config, is unmodified
+13:28:00.524 DEBUG: file=/usr/local/git/etc/gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.657000000, lastModified=2021-08-30 18:52:37.000000000, delta=47849716657000000 ns, racy<=2500000000 ns
+13:28:00.524 DEBUG: file=/usr/local/git/etc/gitconfig, is unmodified
+13:28:00.524 DEBUG: file=/Users/mickael/.gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.658085000, lastModified=2022-10-05 09:14:33.306822000, delta=13238000351263000 ns, racy<=2500000000 ns
+13:28:00.524 DEBUG: file=/Users/mickael/.gitconfig, is unmodified
+13:28:00.524 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/config, create new FileSnapshot: lastRead=2023-03-07 13:28:00.524106000, lastModified=2022-12-20 12:06:33.424462000, size=412, fileKey=(dev=1000012,ino=52129701)
+13:28:00.524 DEBUG: file=/Users/mickael/.config/jgit/config, isRacyClean=false, read=2023-03-07 13:27:53.580368000, lastModified=2023-02-07 13:50:48.100920000, delta=2417825479448000 ns, racy<=2500000000 ns
+13:28:00.524 DEBUG: file=/Users/mickael/.config/jgit/config, is unmodified
+13:28:00.524 DEBUG: file=/usr/local/git/etc/gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.657000000, lastModified=2021-08-30 18:52:37.000000000, delta=47849716657000000 ns, racy<=2500000000 ns
+13:28:00.524 DEBUG: file=/usr/local/git/etc/gitconfig, is unmodified
+13:28:00.524 DEBUG: file=/Users/mickael/.gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.658085000, lastModified=2022-10-05 09:14:33.306822000, delta=13238000351263000 ns, racy<=2500000000 ns
+13:28:00.524 DEBUG: file=/Users/mickael/.gitconfig, is unmodified
+13:28:00.524 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/config, isRacyClean=false, read=2023-03-07 13:28:00.524106000, lastModified=2022-12-20 12:06:33.424462000, delta=6657687099644000 ns, racy<=2500000000 ns
+13:28:00.524 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/config, is unmodified
+13:28:00.524 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/index, create new FileSnapshot: lastRead=2023-03-07 13:28:00.524452000, lastModified=2022-12-20 12:06:33.419990000, size=1300, fileKey=(dev=1000012,ino=52129696)
+13:28:00.524 DEBUG: file=/Users/mickael/.config/jgit/config, isRacyClean=false, read=2023-03-07 13:27:53.580368000, lastModified=2023-02-07 13:50:48.100920000, delta=2417825479448000 ns, racy<=2500000000 ns
+13:28:00.524 DEBUG: file=/Users/mickael/.config/jgit/config, is unmodified
+13:28:00.524 DEBUG: file=/usr/local/git/etc/gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.657000000, lastModified=2021-08-30 18:52:37.000000000, delta=47849716657000000 ns, racy<=2500000000 ns
+13:28:00.524 DEBUG: file=/usr/local/git/etc/gitconfig, is unmodified
+13:28:00.524 DEBUG: file=/Users/mickael/.gitconfig, isRacyClean=false, read=2023-03-07 13:27:53.658085000, lastModified=2022-10-05 09:14:33.306822000, delta=13238000351263000 ns, racy<=2500000000 ns
+13:28:00.524 DEBUG: file=/Users/mickael/.gitconfig, is unmodified
+13:28:00.524 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/config, isRacyClean=false, read=2023-03-07 13:28:00.524106000, lastModified=2022-12-20 12:06:33.424462000, delta=6657687099644000 ns, racy<=2500000000 ns
+13:28:00.524 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/config, is unmodified
+13:28:00.524 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/packed-refs, create new FileSnapshot: lastRead=2023-03-07 13:28:00.524645000, lastModified=2022-12-20 12:05:55.410318000, size=648, fileKey=(dev=1000012,ino=52129586)
+13:28:00.524 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/HEAD, create new FileSnapshot: lastRead=2023-03-07 13:28:00.524796000, lastModified=2022-12-20 12:06:33.425501000, size=38, fileKey=(dev=1000012,ino=52129702)
+13:28:00.524 DEBUG: file=/Users/mickael/Documents/Code/Examples/python/.git/refs/heads/test-pullrequest-demo, create new FileSnapshot: lastRead=2023-03-07 13:28:00.524875000, lastModified=2022-12-20 12:06:37.301657000, size=41, fileKey=(dev=1000012,ino=52129716)
+13:28:02.614 INFO: Analysis report generated in 2097ms, dir size=48 KB
+13:28:02.641 INFO: Analysis report compressed in 27ms, zip size=28 KB
+13:28:02.641 INFO: Analysis report generated in /Users/mickael/Documents/Code/Examples/python/.scannerwork/scanner-report
+13:28:02.641 DEBUG: Upload report
+13:28:02.875 DEBUG: POST 404 https://pr-4981-core.sc-dev.io/api/ce/submit?organization=mickael&projectKey=mickael_python | time=233ms
+13:28:02.879 DEBUG: eslint-bridge server will shutdown
+13:28:07.884 DEBUG: eslint-bridge server closed
+13:28:07.887 INFO: Time spent writing ucfgs 0ms
+13:28:10.564 INFO: ------------------------------------------------------------------------
+13:28:10.564 INFO: EXECUTION FAILURE
+13:28:10.564 INFO: ------------------------------------------------------------------------
+13:28:10.564 INFO: Total time: 48.879s
+13:28:10.595 INFO: Final Memory: 34M/134M
+13:28:10.595 INFO: ------------------------------------------------------------------------
